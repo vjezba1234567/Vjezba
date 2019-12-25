@@ -1,0 +1,61 @@
+* {
+color : white;
+font-family : 'Arial', serif;
+text-shadow: 2px 2px 4px #000000;
+direction: ltr;
+}
+body {
+background-image : url("knjige.jpeg");
+counter-reset: section;
+}
+@keyframes slidein {
+from {
+margin-left : 100%;
+width : 50%;
+}
+to {
+margin-left : 0%;
+width : 50%;
+}
+}
+div#animacija {
+color : black;
+width : 100px;
+height : 1em;
+background-color : #EDFFC7;
+opacity : 0.5;
+animation-name : slidein;
+animation-duration : 5s;
+animation-delay: 2s;
+animation-timing-function: linear;
+
+}
+bdo{color : black;
+	
+}
+.hajlajt {
+unicode-bidi: normal;
+text-align : center;
+padding-top : 30px;
+padding-right : 30px;
+padding-bottom : 30px;
+padding-left : 30px;
+}
+.naslov {
+font-size : 2em;
+text-align : center;
+position : relative;
+padding-top : 30px;
+padding-bottom : 30px;
+margin-top : 10px;
+}
+p {
+padding-top : 30px;
+padding-right : 30px;
+padding-bottom : 30px;
+padding-left : 40px;
+}
+
+ul {
+	  list-style-position: inside;
+}
